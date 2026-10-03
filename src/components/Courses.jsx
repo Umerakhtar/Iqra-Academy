@@ -17,6 +17,7 @@ const Courses = () => {
               <img
                 src={course.image}
                 alt={course.title}
+                loading="lazy"
                 className="mb-4 h-36 w-full rounded-2xl object-cover"
               />
               <h3 className="text-xl font-semibold text-[#0c3d3d]">{course.title}</h3>

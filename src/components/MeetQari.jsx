@@ -8,6 +8,7 @@ const MeetQari = () => {
           <img
             src={qariImage}
             alt="Qari Ali Riaz"
+            loading="lazy"
             className="aspect-[4/5] w-full rounded-[1.5rem] object-cover"
           />
         </div>
