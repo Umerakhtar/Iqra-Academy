@@ -1,7 +1,7 @@
 const Pricing = () => {
   return (
     <section id="pricing" className="bg-white py-20">
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-w-[1280px] px-6">
         <div className="mb-10 text-center">
           <h2 className="text-3xl font-bold text-[#0c3d3d] md:text-4xl">Pricing</h2>
         </div>

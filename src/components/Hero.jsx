@@ -3,13 +3,13 @@ const qariImage = '/src/assets/images/qari-ali-riaz.jpg'
 const Hero = () => {
   return (
     <section className="bg-[#eef4f1] py-20">
-      <div className="mx-auto grid max-w-7xl items-center gap-10 px-6 lg:grid-cols-2">
+      <div className="mx-auto grid max-w-[1280px] items-center gap-10 px-6 lg:grid-cols-2">
         <div className="space-y-6">
           <span className="inline-flex rounded-full border border-[#c9a15a]/40 bg-[#c9a15a]/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-[#0c3d3d]">
             Learn Quran online
           </span>
 
-          <h1 className="text-4xl font-black tracking-tight text-[#0c3d3d] md:text-6xl">
+          <h1 className="text-[clamp(2rem,4vw,3rem)] font-black tracking-tight text-[#0c3d3d]">
             Qari Ali Riaz
           </h1>
 
@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="relative mx-auto aspect-[3/2] w-full max-w-2xl overflow-hidden rounded-[2rem] border border-[#0c3d3d]/10 bg-[#dce8e2] shadow-lg shadow-[#0c3d3d]/10">
+        <div className="relative mx-auto aspect-[3/2] w-full max-w-[520px] overflow-hidden rounded-[2rem] border border-[#0c3d3d]/10 bg-[#dce8e2] shadow-lg shadow-[#0c3d3d]/10">
           <div className="absolute inset-0 flex items-center justify-center bg-[#0e5959] text-center text-white/80">
             <span className="max-w-56 px-6 text-sm font-semibold uppercase tracking-[0.15em]">Qari Ali Riaz portrait</span>
           </div>

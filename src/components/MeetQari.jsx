@@ -3,7 +3,7 @@ import qariImage from '../assets/images/meet-qari.jpg'
 const MeetQari = () => {
   return (
     <section className="bg-white py-20">
-      <div className="mx-auto grid max-w-7xl items-center gap-10 px-6 lg:grid-cols-[1.1fr_0.9fr]">
+      <div className="mx-auto grid max-w-[1280px] items-center gap-10 px-6 lg:grid-cols-[1.1fr_0.9fr]">
         <div className="mx-auto w-full max-w-[430px] rounded-[2rem] bg-[#eef4f1] p-8 ring-1 ring-[#0c3d3d]/10">
           <img
             src={qariImage}
