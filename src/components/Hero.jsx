@@ -1,4 +1,4 @@
-const qariImage = '/src/assets/images/qari-ali-riaz.jpg'
+import qariImage from '../assets/images/qari-ali-riaz.jpg'
 
 const Hero = () => {
   return (
