@@ -38,3 +38,23 @@ a {
 button {
   cursor: pointer;
 }
+
+@keyframes whatsapp-pulse {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-3px) scale(1.04);
+  }
+}
+
+.whatsapp-float {
+  animation: whatsapp-pulse 3s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .whatsapp-float {
+    animation: none;
+  }
+}
