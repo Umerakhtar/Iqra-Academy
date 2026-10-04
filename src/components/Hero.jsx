@@ -23,7 +23,7 @@ const Hero = () => {
           </p>
 
           <p className="max-w-xl text-lg text-[#0c3d3d]/70">
-            I am the Founder of Iqra Online Academy 360. We are providing Quran education to students in the UK, USA, and Canada since 2020. Our mission is to teach Quran with Tajweed to every Muslim kid and adult in a very easy and loving way. We have a team of qualified Hafiz and Qari male/female.
+            I am the Founder of Iqra Online Quran Academy 360. Since 2020, we have been providing Quran education to students from different countries and diverse backgrounds. Our mission is to teach the Holy Quran with proper Tajweed to every Muslim kid and adult in a very easy and loving way. We have a team of qualified Huffaz and male/female Qaris who teach one-on-one live classes.
           </p>
 
           <div className="flex flex-wrap gap-3">
