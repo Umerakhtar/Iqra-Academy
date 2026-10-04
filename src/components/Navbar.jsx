@@ -1,10 +1,10 @@
-import logoImage from '../assets/images/logo.png'
+import logoImage from '../assets/images/logo.webp'
 
 const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 border-b border-[#0c3d3d]/10 bg-[#eef4f1]/90 backdrop-blur-sm">
       <div className="mx-auto flex max-w-[1280px] items-center justify-between px-6 py-4">
-        <img src={logoImage} alt="Iqra Online Academy" className="h-12 w-auto" />
+        <img src={logoImage} alt="Iqra Online Academy" width={1280} height={1280} className="h-12 w-auto" />
 
         <nav className="hidden items-center gap-6 text-sm font-medium text-[#0c3d3d]/80 md:flex">
           <a href="#courses" className="transition hover:text-[#0e5959]">Courses</a>

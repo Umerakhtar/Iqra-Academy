@@ -1,4 +1,4 @@
-import qariImage from '../assets/images/meet-qari.jpg'
+import qariImage from '../assets/images/meet-qari.webp'
 
 const MeetQari = () => {
   return (
@@ -8,6 +8,8 @@ const MeetQari = () => {
           <img
             src={qariImage}
             alt="Qari Ali Riaz"
+            width={1084}
+            height={1280}
             loading="lazy"
             className="aspect-[4/5] w-full rounded-[1.5rem] object-cover"
           />

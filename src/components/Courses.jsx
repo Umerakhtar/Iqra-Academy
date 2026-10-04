@@ -17,6 +17,8 @@ const Courses = () => {
               <img
                 src={course.image}
                 alt={course.title}
+                width={course.imageWidth}
+                height={course.imageHeight}
                 loading="lazy"
                 className="mb-4 h-36 w-full rounded-2xl object-cover"
               />

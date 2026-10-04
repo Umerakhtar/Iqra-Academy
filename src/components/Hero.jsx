@@ -1,4 +1,4 @@
-import qariImage from '../assets/images/qari-ali-riaz.jpg'
+import qariImage from '../assets/images/qari-ali-riaz.webp'
 
 const Hero = () => {
   return (
@@ -46,6 +46,8 @@ const Hero = () => {
           <img
             src={qariImage}
             alt="Qari Ali Riaz"
+            width={1536}
+            height={1024}
             className="relative size-full object-cover"
             onError={(event) => { event.currentTarget.style.display = 'none' }}
           />
