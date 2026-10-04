@@ -7,6 +7,7 @@ import FAQ from './components/FAQ'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
 import { MessageCircle } from 'lucide-react'
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       >
         <MessageCircle size={28} strokeWidth={2.5} aria-hidden="true" />
       </a>
+      <Analytics />
     </div>
   )
 }
