@@ -4,7 +4,7 @@ const FAQ = () => {
       <div className="mx-auto max-w-[1280px] px-6">
         <div className="mx-auto max-w-4xl">
           <div className="mb-10 text-center">
-            <h2 className="text-3xl font-bold text-[#0c3d3d] md:text-4xl">FAQ</h2>
+            <h2 className="text-3xl font-bold text-[#0c3d3d] md:text-4xl">FAQs</h2>
           </div>
 
           <div className="space-y-4">

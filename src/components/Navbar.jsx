@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="hidden items-center gap-6 text-sm font-medium text-[#0c3d3d]/80 md:flex">
           <a href="#courses" className="transition hover:text-[#0e5959]">Courses</a>
           <a href="#pricing" className="transition hover:text-[#0e5959]">Pricing</a>
-          <a href="#faq" className="transition hover:text-[#0e5959]">FAQ</a>
+          <a href="#faq" className="transition hover:text-[#0e5959]">FAQs</a>
         </nav>
 
         <a

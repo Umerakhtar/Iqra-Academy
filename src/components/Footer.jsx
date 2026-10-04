@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="flex gap-6 text-sm text-white/80">
           <a href="#" className="transition hover:text-white">About</a>
           <a href="#" className="transition hover:text-white">Courses</a>
-          <a href="#" className="transition hover:text-white">FAQ</a>
+          <a href="#" className="transition hover:text-white">FAQs</a>
         </div>
       </div>
     </footer>
